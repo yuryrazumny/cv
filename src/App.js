@@ -5,7 +5,6 @@ export default function App() {
     <div className="App">
       <div className={styles.container}>
         <div className={styles.inner__container}>
-          <img className={styles.photo} src={profile}></img>
           <div className={styles.text}>
             <p>
               My name is <strong>Yuri Razumny</strong>
@@ -28,6 +27,7 @@ export default function App() {
               <li>NextJs</li>
             </ul>
           </div>
+          <img className={styles.photo} src={profile}></img>
           <div className={styles.text}>
             <p>
               <b>Education:</b>
@@ -35,7 +35,7 @@ export default function App() {
             <ul className={styles.ul}>
               <li>ITMO University (2015-2019)</li>
               <li>RSSchool JS/Frontend course (2020)</li>
-              <li>Tinkoff Frontend development (2021)</li>
+              <li>Tinkoff Frontend development course (2021)</li>
               <li>SoloLearn</li>
               <li>Codewars</li>
               <li>HTML Academy</li>
@@ -43,6 +43,50 @@ export default function App() {
               <li>Stepik</li>
             </ul>
           </div>
+          <div className={styles.text}>
+            <p>
+              <b>My projects:</b>
+            </p>
+            <ul className={styles.ul}>
+              <li>
+                <a
+                  href="https://my-trello-trulala.herokuapp.com/"
+                  target="_blank"
+                >
+                  My simple trello
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://rslang-team5-alekchaik.netlify.app/"
+                  target="_blank"
+                >
+                  RSlang{' '}
+                </a>
+                (team project)
+              </li>
+              <li>
+                <a
+                  href="https://yuryrazumny.github.io/virtual-keyboard/"
+                  target="_blank"
+                >
+                  Virtual keyboard
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://yuryrazumny.github.io/singolo/"
+                  target="_blank"
+                >
+                  Singolo
+                </a>
+              </li>
+            </ul>
+          </div>
+          {/* <div>
+            <p><b>Socials:</b></p>
+
+          </div> */}
         </div>
       </div>
     </div>

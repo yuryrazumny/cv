@@ -28,4 +28,10 @@
 
 .ul {
   padding-inline-start: 24px;
+  line-height: 30px;
+}
+
+a {
+  text-decoration: none;
+  color: darkblue;
 }
